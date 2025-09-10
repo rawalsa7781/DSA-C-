@@ -248,21 +248,18 @@
 // //     cout << endl;
 // // }
 
-// #include<iostream>
-// using namespace std;
+#include<iostream>
+using namespace std;
 
-// int main(){
-//     int num[] = { 10,45,42,-10,5};
-//     int size = 5;
+int main(){
+    int num[] = { 10,45,42,-10,5};
+    int size = 5;
 
-//     int large = INT16_MIN;
+    int large = INT16_MIN;
 
-//     for(int i = 0; i<size; i++){
-//         large = max(num[i], large);
-//     }
-//     cout << "large is: " << large <<endl;
-
-
+    for(int i = 0; i<size; i++){
+        large = max(num[i], large);
+    }
+    cout << "large is: " << large <<endl;
 
 
-// }r
